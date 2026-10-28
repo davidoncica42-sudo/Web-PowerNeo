@@ -1,0 +1,29 @@
+Porgem-AI/
+├── index.html
+├── style.css
+├── script.js
+├── src/
+│   ├── app.js
+│   ├── core/
+│   │   ├── orchestrator.js
+│   │   ├── model-registry.js
+│   │   ├── project-context.js
+│   │   └── task-planner.js
+│   ├── game-engine/
+│   │   ├── scene-builder.js
+│   │   ├── asset-manager.js
+│   │   ├── physics-manager.js
+│   │   └── preview-runtime.js
+│   ├── workspace/
+│   │   ├── editor.js
+│   │   ├── project-manager.js
+│   │   └── file-tree.js
+│   └── ui/
+│       ├── model-selector.js
+│       ├── chat-panel.js
+│       └── notifications.js
+├── server/
+│   ├── api.js
+│   ├── auth.js
+│   └── providers/
+└── README.md
