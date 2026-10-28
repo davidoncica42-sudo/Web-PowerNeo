@@ -1,0 +1,221 @@
+
+/* =====================================
+   PORGEM AI — BLACK & WHITE DARK THEME
+   ===================================== */
+
+:root {
+  --bg: #050505;
+  --panel: rgba(15, 15, 15, .94);
+  --border: rgba(255, 255, 255, .14);
+  --text: #ffffff;
+  --muted: #a1a1a1;
+  --purple: #ffffff;
+  --blue: #d4d4d4;
+}
+
+body {
+  background: #050505;
+  color: #ffffff;
+}
+
+.background-glow {
+  background:
+    radial-gradient(ellipse at 50% 0%,
+      rgba(255, 255, 255, .085), transparent 48%),
+    radial-gradient(ellipse at 95% 45%,
+      rgba(255, 255, 255, .025), transparent 36%),
+    radial-gradient(ellipse at 5% 80%,
+      rgba(255, 255, 255, .025), transparent 40%);
+}
+
+.grid-background {
+  opacity: .12;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .14) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .14) 1px, transparent 1px);
+}
+
+.navbar {
+  background: rgba(5, 5, 5, .82);
+  border-bottom-color: rgba(255, 255, 255, .10);
+}
+
+.brand-icon {
+  color: #050505;
+  background: linear-gradient(135deg, #ffffff, #c5c5c5);
+  box-shadow: 0 0 24px rgba(255, 255, 255, .08);
+}
+
+.brand-ai,
+.sparkle,
+.heading-dot,
+.preview-symbol {
+  color: #ffffff;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.login-button:hover,
+.secondary-button:hover {
+  background: rgba(255, 255, 255, .08);
+  border-color: rgba(255, 255, 255, .45);
+}
+
+.status-pill {
+  background: rgba(255, 255, 255, .045);
+  border-color: rgba(255, 255, 255, .20);
+  color: #e5e5e5;
+}
+
+.status-dot {
+  background: #ffffff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, .6);
+}
+
+.gradient-text {
+  background: linear-gradient(100deg, #ffffff, #bcbcbc);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.creator-panel {
+  background: linear-gradient(145deg, #171717, #0a0a0a);
+  border-color: rgba(255, 255, 255, .18);
+  box-shadow: 0 25px 100px rgba(0, 0, 0, .35);
+}
+
+.panel-top {
+  color: #e0e0e0;
+}
+
+.online-label {
+  color: #d4d4d4;
+}
+
+#gamePrompt {
+  background: #080808;
+  border-color: #292929;
+  color: #ffffff;
+}
+
+#gamePrompt:focus,
+.login-dialog input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .08);
+}
+
+.mode.active {
+  color: #ffffff;
+  border-color: #777777;
+  background: #252525;
+}
+
+.model-orb {
+  color: #ffffff;
+  background: #202020;
+  border-color: #3a3a3a;
+}
+
+.generate-button {
+  color: #080808;
+  background: linear-gradient(110deg, #ffffff, #c9c9c9);
+  border-color: #ffffff;
+  box-shadow: 0 5px 25px rgba(255, 255, 255, .07);
+}
+
+.generate-button:hover {
+  box-shadow: 0 8px 30px rgba(255, 255, 255, .14);
+}
+
+.quick-prompts button:hover {
+  color: #ffffff;
+  border-color: #888888;
+}
+
+.eyebrow {
+  color: #c9c9c9;
+}
+
+.model-count,
+.model-tag {
+  color: #dedede;
+  background: #181818;
+  border-color: #343434;
+}
+
+.model-card {
+  background: rgba(17, 17, 17, .85);
+  border-color: #282828;
+}
+
+.model-card:hover {
+  border-color: #888888;
+}
+
+.model-card.selected {
+  background: linear-gradient(145deg, #202020, #101010);
+  border-color: #888888;
+}
+
+.purple,
+.blue,
+.green {
+  color: #ffffff;
+  background: #202020;
+}
+
+.model-action {
+  color: #eeeeee;
+  border-top-color: #303030;
+}
+
+.empty-projects {
+  background: rgba(15, 15, 15, .45);
+  border-color: #393939;
+}
+
+.empty-icon {
+  color: #ffffff;
+  background: #191919;
+  border-color: #393939;
+}
+
+.preview-window {
+  background: #090909;
+  border-color: #353535;
+}
+
+.preview-content {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, .055),
+    transparent 70%
+  );
+}
+
+.login-dialog {
+  background: #111111;
+  border-color: #454545;
+}
+
+.login-dialog input {
+  background: #080808;
+  border-color: #353535;
+}
+
+.toast {
+  background: #202020;
+  border-color: #555555;
+}
+
+footer {
+  border-top-color: #252525;
+}
+
+::selection {
+  color: #000000;
+  background: #ffffff;
+}
